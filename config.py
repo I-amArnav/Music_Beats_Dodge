@@ -1,0 +1,33 @@
+# ------------------ Config ------------------
+SCREEN_W = 800
+SCREEN_H = 600
+FPS = 60
+LANES = 10
+LANE_HEIGHT = SCREEN_H / LANES
+PLAYER_X = 100  # fixed x position
+PLAYER_SPEED_LANES = 1
+OBSTACLE_SPEED = 300
+SPAWN_AHEAD_PIXELS = 900
+WINDOW_MS = 100
+ENERGY_BASELINE_BUFFER = 50
+
+# Energy thresholds
+LOW_TH = 1.05
+MEDIUM_TH = 1.5
+HIGH_TH = 2.2
+
+# Obstacle sizes per tier
+LOW_SIZES = [1, 1, 2]
+MEDIUM_SIZES = [2, 3]
+HIGH_SIZES = [3, 4, 4, 5]
+
+# Cooldowns & safety
+MIN_SPAWN_INTERVAL_MS = 150
+HEAVY_COOLDOWN_MS = 600
+
+# Colors
+BG_COLOR = (10, 10, 20)
+LANE_COLOR = (30, 30, 40)
+PLAYER_COLOR = (200, 220, 240)
+OBSTACLE_COLOR = (255, 80, 80)
+TEXT_COLOR = (230, 230, 230)
